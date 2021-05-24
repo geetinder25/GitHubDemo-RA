@@ -26,7 +26,7 @@ public class LoginTest {
 		driver.findElement(By.id("txtlogin")).sendKeys("geetinder25@rediff.com");
 		driver.findElement(By.id("pass_box")).sendKeys("Infosys01+");
 		
-		//driver.findElement(By.cssSelector("input[type='submit'][value='Login']")).click;
+		driver.findElement(By.cssSelector("input[type='submit'][value='Login']")).click();
 		
 	}
 	
